@@ -29,10 +29,10 @@ BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=31 msm
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02900000 --tags_offset 0x02700000
-TARGET_KERNEL_CONFIG := slim_mondrian_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_mondrian_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/mondrianwifi
-KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_OS)-x86/toolchain/linaro-4.9-14.06/bin/"
+#KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
+#KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_OS)-x86/toolchain/linaro-4.9-14.06/bin/"
 
 # External apps on SD
 TARGET_EXTERNAL_APPS = sdcard1

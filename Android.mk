@@ -20,9 +20,9 @@
 # to only building on ARM if they include assembly. Individual makefiles
 # are responsible for having their own logic, for fine-grained control.
 
-LOCAL_PATH := $(call my-dir)
-
 ifeq ($(TARGET_DEVICE),mondrianwifi)
+
+LOCAL_PATH := $(call my-dir)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 

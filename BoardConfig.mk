@@ -114,6 +114,7 @@ BOARD_SEPOLICY_UNION += \
   file_contexts \
   file.te \
   init.te \
+  init_shell.te \
   keystore.te \
   mediaserver.te \
   mm-pp-daemon.te \

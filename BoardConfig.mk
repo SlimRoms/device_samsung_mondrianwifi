@@ -70,7 +70,7 @@ BOARD_HARDWARE_CLASS += device/samsung/mondrianwifi/cmhw
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/mondrianwifi/init/init_mondrianwifi.c
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/mondrianwifi/init/init_mondrianwifi.cpp
 TARGET_UNIFIED_DEVICE := true
 
 # Graphics

@@ -25,8 +25,14 @@
     "branch": "mm6.0"
   },
   {
+    "repository": "SlimRoms/hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "branch": "mm6.0"
+  },
+  {
     "repository": "SlimRoms/android_external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
     "branch": "mm6.0"
-   }
+  }
+
 ]

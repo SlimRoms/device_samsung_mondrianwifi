@@ -119,10 +119,6 @@ vendor/lib/libqcci_legacy.so
 vendor/lib/libqmi_client_qmux.so
 lib/libsecril-client.so
 
-# Time services
-bin/time_daemon
--vendor/lib/libtime_genoff.so
-
 # Camera
 bin/mm-qcamera-daemon
 cameradata/datapattern_420sp.yuv

@@ -129,7 +129,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
     hostapd \
-    hostapd_default.conf \
     libwcnss_qmi \
     libwpa_client \
     wcnss_service \

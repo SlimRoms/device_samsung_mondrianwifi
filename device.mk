@@ -127,7 +127,6 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
-    dhcpcd.conf \
     hostapd \
     libwcnss_qmi \
     libwpa_client \

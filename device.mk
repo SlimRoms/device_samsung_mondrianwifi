@@ -95,7 +95,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    av.streaming.offload.enable=false
+    av.streaming.offload.enable=false \
+    media.stagefright.legacyencoder=true \
+    media.stagefright.less-secure=true
 
 # Permissions
 PRODUCT_COPY_FILES += \

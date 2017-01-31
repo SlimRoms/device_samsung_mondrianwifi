@@ -18,7 +18,7 @@ package org.cyanogenmod.hardware;
 
 import java.io.File;
 import java.util.Scanner;
-import org.cyanogenmod.internal.util.FileUtils;
+import org.slim.utils.FileUtils;
 
 public class DisplayColorCalibration {
     private static final String COLOR_FILE = "/sys/class/graphics/fb0/rgb";

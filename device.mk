@@ -53,8 +53,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.msm8974 \
     libshim_qcopt \
-    libxml2 \
-    Snap
+    libxml2
 
 # GPS
 PRODUCT_PACKAGES += \
